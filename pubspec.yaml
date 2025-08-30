@@ -52,13 +52,18 @@ dev_dependencies:
   # step 2: Install spinkit
   flutter_spinkit: ^5.2.2
 
+  #step 3
+  connectivity_plus: ^6.1.5
+
+  #step4
+  fluttertoast: ^8.2.12
+
 # Step 1: Install icon app
 flutter_launcher_icons:
   android: "launcher_icon"
   ios: true # icon บน ios แนวตั้ง
   Remove_alpha.ios: true # icon โปร่งใส
   image_path: "./android/assets/icon/logo.png"
-  assets: ./android/assets/image/app_screen.png
   min_skd_android: 28 # min is 16, default is 21
   adaptive_icon_background: "#FFFFFF" # สีพื้นหลัง icon บน Android
   adaptive_icon_foreground: "./android/assets/icon/logo.png" # ให้ icon เป็นรูปภาพ
