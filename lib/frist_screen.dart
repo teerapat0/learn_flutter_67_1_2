@@ -11,10 +11,12 @@ import 'package:fluttertoast/fluttertoast.dart';
 class FirstScreen extends StatefulWidget {
   const FirstScreen({super.key});
 
+  @override
   State<FirstScreen> createState() => _FirstScreenState();
 }
 
 class _FirstScreenState extends State<FirstScreen> {
+  @override
   void initState() {
     super.initState();
 
@@ -69,6 +71,7 @@ class _FirstScreenState extends State<FirstScreen> {
     }
   }
 
+  @override
   Widget build(BuildContext context) {
     return Container(
       decoration: const BoxDecoration(
@@ -165,6 +168,7 @@ void _showAlertDialog(BuildContext context, String title, String msg) {
 class SecondScreen extends StatelessWidget {
   const SecondScreen({super.key});
 
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text('Second Screen')),

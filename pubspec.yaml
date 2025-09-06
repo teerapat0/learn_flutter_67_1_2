@@ -34,6 +34,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
+  
+  # Step 4: connect firebase
+  firebase_core: ^4.1.0
+  cloud_firestore: ^6.0.1
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +70,7 @@ flutter_launcher_icons:
   image_path: "./android/assets/icon/logo.png"
   min_skd_android: 28 # min is 16, default is 21
   adaptive_icon_background: "#FFFFFF" # สีพื้นหลัง icon บน Android
-  adaptive_icon_foreground: "./android/assets/icon/logo.png" # ให้ icon เป็นรูปภาพ
+  adaptive_icon_foreground: "./android/assets/image/app_screen.png" # ให้ icon เป็นรูปภาพ
   # หลังจากนำภาพเข้าโปรเจค ให้ใช้คำสั่ง dart run flutter_launcher_icons
 
 # For information on the generic Dart part of this file, see the
